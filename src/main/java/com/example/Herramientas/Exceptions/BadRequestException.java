@@ -1,0 +1,7 @@
+package com.example.Herramientas.Exceptions;
+
+public class BadRequestException extends RuntimeException {
+    public BadRequestException(String message) {
+        super(message);
+    }
+}
